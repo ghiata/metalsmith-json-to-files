@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/woodyrew/metalsmith-json-to-files.svg)](https://travis-ci.org/woodyrew/metalsmith-json-to-files)
-
 # Metalsmith json to files
 Creates files from supplied JSON
 
@@ -12,7 +10,7 @@ A [Metalsmith](https://github.com/segmentio/metalsmith) plugin that lets you gen
 
 ## Installation
 ```bash
-$ npm install metalsmith-json-to-files
+$ npm install ghiata/metalsmith-json-to-files
 ```
 
 ## Usage
@@ -43,10 +41,6 @@ Take a look...
 ```
 
 Any extra metadata within the `json_files` object will be passed through to the files it generates as `data.`
-
-## Examples
-See the [metalsmith-json-to-files CLI example](https://github.com/toddmorey/metalsmith-json-to-files-example)
-
 
 ## License
 GPL-2.0
